@@ -43,6 +43,7 @@ overflow-x: hidden;
   justify-content: space-between;
   margin-top: 50px;
   gap:50px;
+  padding: 20px 15px;
 }
 .main h1{
   color: goldenrod;
@@ -53,10 +54,9 @@ overflow-x: hidden;
   max-width: 500px;
  height: auto;
  display: block;
- min-height: 300px;
- min-width:300px;
+ 
 }
-.main image{
+.main-image{
  flex: 1;
  text-align: right;
 }
@@ -340,7 +340,7 @@ width: 100%;
 }
 .buy p{
   color:white;
-  margin: 300px 1;
+  margin: 20px 0;
   font-size: 20px;
 }
 .buy button{
@@ -370,12 +370,12 @@ width: 100%;
   .nav-links{
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    gap: 15px;
   }
 
   .nav-links a
   {
-    
+    font-size: 16px;
     margin-left:0;
     
 
@@ -383,12 +383,14 @@ width: 100%;
   .main{
     flex-direction: column;
     text-align: center;
-    padding: 20px;
+    padding: 20px 15px;
+    margin-top: 20px;
   }
 
   .main-content,
   .main-image{
     width: 100%;
+    padding: 10px;
   }
 
   .main-image img{
@@ -396,6 +398,7 @@ width: 100%;
    max-width: 300px;
     margin-top: 20px;
     height: auto;
+    margin: auto;
   }
 
   h1{
@@ -427,7 +430,7 @@ width: 100%;
 
   .card,
   .card2{
-    width: 90%;
+    width: 100%;
     max-width: 320px;
     margin-left: 0;
   }
@@ -446,7 +449,18 @@ width: 100%;
 
   .cost-price{
     font-size: 18px;
+    padding: 15px 0;
   }
+.price{
+  padding: 20px;
+}
+.star,
+.reviews,
+.name{
+  margin-left: 0;
+  text-align: center;
+}
+
 
   .buy h2{
     font-size: 32px;
