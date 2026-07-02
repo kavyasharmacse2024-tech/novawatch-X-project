@@ -1,3 +1,4 @@
+
 body{
   margin: 0;
   padding: 0;
@@ -36,6 +37,11 @@ overflow-x: hidden;
   font-size: 40px;
    margin-top: 40px;
   
+
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
 .main{
   display: flex;
@@ -104,7 +110,7 @@ overflow-x: hidden;
   transition: 0.6s;
   margin: 0;
   padding: 0;
-  margin-left: 70px;
+  margin-left: 0;
   font-size: 20px;
 }
 .nav-links a:hover{
@@ -223,17 +229,17 @@ h3{
 }
 .card-grid{
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap:40px;
-  margin-left: 60px;
-  margin-top: 40px;
+  justify-content: center;
+  margin: 40px auto;
 }
 .card2-grid{
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: center;
   gap:40px;
-  margin-left: 60px;
-  margin-top: 40px;
+  margin: 40px auto;
  
 }
 .card2:hover{
@@ -467,6 +473,15 @@ width: 100%;
   .buy h2{
     font-size: 32px;
   }
+}
+.logo{
+  margin: 0;
+}
+.x{
+  font-size: 32px;
+}
+.main-image{
+  text-align: center;
 }
 
 @media (max-width: 480px){
