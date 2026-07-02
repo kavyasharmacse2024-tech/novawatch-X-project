@@ -368,8 +368,10 @@ width: 100%;
   }
 
   .nav-links{
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 15px;
   }
 
@@ -489,7 +491,8 @@ width: 100%;
 
   .card,
   .card2{
-    width: 95%;
+    width: 90%;
+    margin: 15px auto;
   }
 
   .buy h2{
@@ -500,3 +503,5 @@ width: 100%;
     font-size: 16px;
   }
 }
+
+
